@@ -1,0 +1,16 @@
+E:\KULYEAH\OOP\ArtCommAppPBO\ArtCommissionApp\ArtCommissionApp\bin\Debug\net5.0\ArtCommissionApp.exe
+E:\KULYEAH\OOP\ArtCommAppPBO\ArtCommissionApp\ArtCommissionApp\bin\Debug\net5.0\ArtCommissionApp.deps.json
+E:\KULYEAH\OOP\ArtCommAppPBO\ArtCommissionApp\ArtCommissionApp\bin\Debug\net5.0\ArtCommissionApp.runtimeconfig.json
+E:\KULYEAH\OOP\ArtCommAppPBO\ArtCommissionApp\ArtCommissionApp\bin\Debug\net5.0\ArtCommissionApp.runtimeconfig.dev.json
+E:\KULYEAH\OOP\ArtCommAppPBO\ArtCommissionApp\ArtCommissionApp\bin\Debug\net5.0\ArtCommissionApp.dll
+E:\KULYEAH\OOP\ArtCommAppPBO\ArtCommissionApp\ArtCommissionApp\bin\Debug\net5.0\ref\ArtCommissionApp.dll
+E:\KULYEAH\OOP\ArtCommAppPBO\ArtCommissionApp\ArtCommissionApp\bin\Debug\net5.0\ArtCommissionApp.pdb
+E:\KULYEAH\OOP\ArtCommAppPBO\ArtCommissionApp\ArtCommissionApp\obj\Debug\net5.0\ArtCommissionApp.csprojAssemblyReference.cache
+E:\KULYEAH\OOP\ArtCommAppPBO\ArtCommissionApp\ArtCommissionApp\obj\Debug\net5.0\ArtCommissionApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\KULYEAH\OOP\ArtCommAppPBO\ArtCommissionApp\ArtCommissionApp\obj\Debug\net5.0\ArtCommissionApp.AssemblyInfoInputs.cache
+E:\KULYEAH\OOP\ArtCommAppPBO\ArtCommissionApp\ArtCommissionApp\obj\Debug\net5.0\ArtCommissionApp.AssemblyInfo.cs
+E:\KULYEAH\OOP\ArtCommAppPBO\ArtCommissionApp\ArtCommissionApp\obj\Debug\net5.0\ArtCommissionApp.csproj.CoreCompileInputs.cache
+E:\KULYEAH\OOP\ArtCommAppPBO\ArtCommissionApp\ArtCommissionApp\obj\Debug\net5.0\ArtCommissionApp.dll
+E:\KULYEAH\OOP\ArtCommAppPBO\ArtCommissionApp\ArtCommissionApp\obj\Debug\net5.0\ref\ArtCommissionApp.dll
+E:\KULYEAH\OOP\ArtCommAppPBO\ArtCommissionApp\ArtCommissionApp\obj\Debug\net5.0\ArtCommissionApp.pdb
+E:\KULYEAH\OOP\ArtCommAppPBO\ArtCommissionApp\ArtCommissionApp\obj\Debug\net5.0\ArtCommissionApp.genruntimeconfig.cache

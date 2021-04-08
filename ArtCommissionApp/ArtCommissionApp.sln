@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtCommissionApp", "ArtCommissionApp\ArtCommissionApp.csproj", "{C4F39460-ED66-43CB-A4E8-7F307BAFA890}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4F39460-ED66-43CB-A4E8-7F307BAFA890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F39460-ED66-43CB-A4E8-7F307BAFA890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F39460-ED66-43CB-A4E8-7F307BAFA890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F39460-ED66-43CB-A4E8-7F307BAFA890}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17ABCB6A-A9B8-42F3-A5B9-6CA07FBE5981}
+	EndGlobalSection
+EndGlobal
