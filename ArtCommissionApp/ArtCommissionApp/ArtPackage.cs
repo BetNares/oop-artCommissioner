@@ -12,6 +12,7 @@ namespace ArtCommissionApp
         public string packageName;
         public double price;
         public double duration;
+        public int stage;
 
         //constructor
 
@@ -24,6 +25,60 @@ namespace ArtCommissionApp
         public void ShowDurationInformation()
         {
             Console.WriteLine("the {0} package will take about {1} hours", packageName, duration);
+        }
+
+        public void CreateNewPackage()
+        {
+            
+            Console.WriteLine("\nPackages makes it easy for your client to see what kind of artwork you are capable of making, and help them choose.");
+            Console.WriteLine("You haven't set up any packages. Let's make a new one.");
+
+            //new package
+            Console.WriteLine("\nWhat's the package name?");
+            packageName = Console.ReadLine();
+            Console.WriteLine("Ok, the package name is " + packageName);
+
+
+            Console.WriteLine("\nHow complete would the art be in this package you're offering?");
+            Console.WriteLine("\n 1. Just the sketching, conceptual stage \n 2. Fully inked, black-and-white colored \n 3. Fully colored, finished illustration");
+    
+            switch (Console.ReadLine())
+            {
+                case "1":
+                    stage = 1;
+                    break;
+                case "2":
+                    stage = 2;
+                    break;
+                case "3":
+                    stage = 3;
+                    break;
+                default:
+                    break;
+            }
+
+
+            Console.WriteLine("\nWhat type of artwork will it be? \n (1) portrait character art \n (2) half-body character \n (3) full-body character");
+            switch (Console.ReadLine())
+            {
+                case "1":
+                    Portrait myPortrait = new Portrait(packageName, stage);
+                    myPortrait.newPortrait();
+                    break;
+                case "2":
+                    halfBody myHalfbody = new halfBody(packageName, stage);
+                    myHalfbody.newHalfbody();
+                    break;
+                case "3":
+                    fullBody myFullbody = new fullBody(packageName, stage);
+                    myFullbody.newFullbody();
+                    break;
+                default:
+                    break;
+            }
+
+
+
         }
 
         //ini function

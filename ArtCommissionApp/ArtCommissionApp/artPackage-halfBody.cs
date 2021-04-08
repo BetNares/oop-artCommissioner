@@ -6,23 +6,23 @@ using System.Threading.Tasks;
 
 namespace ArtCommissionApp
 {
-    public class Portrait : ArtPackage
+    class halfBody : ArtPackage
     {
         //attribute, field, variables
         int process;
         bool isBackground = false;
         bool isExtra = false;
 
-        public Portrait(string name, int process)
+        public halfBody(string name, int process)
         {
             packageName = name;
             this.process = process;
             this.isBackground = isBackground;
             this.isExtra = isExtra;
         }
-        public void newPortrait()
+        public void newHalfbody()
         {
-            bool input = Consolefunctions.Confirm("So it will be a character portrait commission. Will you accept drawing the background also ? ");
+            bool input = Consolefunctions.Confirm("So it will be a character halfBody commission. Will you accept drawing the background also ? ");
 
             if (input == true)
             {
@@ -43,7 +43,7 @@ namespace ArtCommissionApp
 
         public virtual double CalculatePrice(bool isBackground, bool isExtra)
         {
-            double total = 20;
+            double total = 30;
 
             if (isBackground == true)
             {
@@ -60,7 +60,7 @@ namespace ArtCommissionApp
 
         public virtual double CalculateDuration(bool isBackground, bool isExtra)
         {
-            double total = 2;
+            double total = 3;
 
             if (isBackground == true)
             {
@@ -75,4 +75,6 @@ namespace ArtCommissionApp
             return total;
         }
     }
+
+
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\KULYEAH\\OOP\\ArtCommAppPBO\\ArtCommissionApp\\ArtCommissionApp\\ArtCommissionApp.csproj": {}
+    "C:\\Users\\user\\Documents\\GitHub\\oop-artCommissioner\\ArtCommissionApp\\ArtCommissionApp\\ArtCommissionApp.csproj": {}
   },
   "projects": {
-    "E:\\KULYEAH\\OOP\\ArtCommAppPBO\\ArtCommissionApp\\ArtCommissionApp\\ArtCommissionApp.csproj": {
+    "C:\\Users\\user\\Documents\\GitHub\\oop-artCommissioner\\ArtCommissionApp\\ArtCommissionApp\\ArtCommissionApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\KULYEAH\\OOP\\ArtCommAppPBO\\ArtCommissionApp\\ArtCommissionApp\\ArtCommissionApp.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\oop-artCommissioner\\ArtCommissionApp\\ArtCommissionApp\\ArtCommissionApp.csproj",
         "projectName": "ArtCommissionApp",
-        "projectPath": "E:\\KULYEAH\\OOP\\ArtCommAppPBO\\ArtCommissionApp\\ArtCommissionApp\\ArtCommissionApp.csproj",
+        "projectPath": "C:\\Users\\user\\Documents\\GitHub\\oop-artCommissioner\\ArtCommissionApp\\ArtCommissionApp\\ArtCommissionApp.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\KULYEAH\\OOP\\ArtCommAppPBO\\ArtCommissionApp\\ArtCommissionApp\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\GitHub\\oop-artCommissioner\\ArtCommissionApp\\ArtCommissionApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
