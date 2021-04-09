@@ -39,9 +39,12 @@ namespace ArtCommissionApp
             price = CalculatePrice(isBackground, isExtra);
             duration = CalculateDuration(isBackground, isExtra);
 
+            ShowPriceInformation();
+            ShowDurationInformation();
+
         }
 
-        public virtual double CalculatePrice(bool isBackground, bool isExtra)
+        public override double CalculatePrice(bool isBackground, bool isExtra)
         {
             double total = 100;
 
@@ -58,7 +61,7 @@ namespace ArtCommissionApp
             return total;
         }
 
-        public virtual double CalculateDuration(bool isBackground, bool isExtra)
+        public override double CalculateDuration(bool isBackground, bool isExtra)
         {
             double total = 6;
 

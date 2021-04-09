@@ -64,14 +64,17 @@ namespace ArtCommissionApp
                 case "1":
                     Portrait myPortrait = new Portrait(packageName, stage);
                     myPortrait.newPortrait();
+            
                     break;
                 case "2":
                     halfBody myHalfbody = new halfBody(packageName, stage);
                     myHalfbody.newHalfbody();
+               
                     break;
                 case "3":
                     fullBody myFullbody = new fullBody(packageName, stage);
                     myFullbody.newFullbody();
+             
                     break;
                 default:
                     break;
@@ -79,6 +82,16 @@ namespace ArtCommissionApp
 
 
 
+        }
+
+        public virtual double CalculatePrice(bool isBackground, bool isExtra)
+        {
+            return 0;
+        }
+
+        public virtual double CalculateDuration(bool isBackground, bool isExtra)
+        {
+            return 0;
         }
 
         //ini function
