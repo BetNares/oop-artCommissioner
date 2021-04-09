@@ -55,7 +55,7 @@ namespace ArtCommissionApp
 
             if (isExtra == true)
             {
-                total = total + 20;
+                total = total + 10;
             }
 
             return total;

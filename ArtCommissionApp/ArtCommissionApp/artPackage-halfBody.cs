@@ -46,7 +46,7 @@ namespace ArtCommissionApp
 
         public override double CalculatePrice(bool isBackground, bool isExtra)
         {
-            double total = 30;
+            double total = 40;
 
             if (isBackground == true)
             {
