@@ -41,6 +41,37 @@ namespace ArtCommissionApp
 
             ShowPriceInformation();
             ShowDurationInformation();
+            InsertPack();
+
+            bool showMenu = true;
+            while (showMenu)
+            {
+                showMenu = Consolefunctions.startMenu();
+            }
+
+        }
+
+        public override void InsertPack()
+        {
+            using (var context = new ArtPackageContext())
+            {
+
+                var Package = new Package
+                {
+                    Name = packageName,
+
+                    PackageInfo = new List<PackageInfo>
+                    {
+                        new PackageInfo { Name = packageName, 
+                            Price = (int)price, 
+                            Duration = (int)duration },
+                        
+                    }
+                };
+                context.Add(Package);
+                context.SaveChanges();
+                Console.WriteLine(Package.Name);
+            }
 
         }
 

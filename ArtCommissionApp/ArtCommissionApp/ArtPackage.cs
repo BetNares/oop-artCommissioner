@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace ArtCommissionApp
 {
@@ -92,6 +93,29 @@ namespace ArtCommissionApp
         public virtual double CalculateDuration(bool isBackground, bool isExtra)
         {
             return 0;
+        }
+
+        public virtual void InsertPack()
+        {
+            using (var context = new ArtPackageContext())
+            {
+
+                var Package = new Package
+                {
+                    Name = packageName,
+
+                    PackageInfo = new List<PackageInfo>
+                    {
+                        new PackageInfo { Name = packageName },
+                        new PackageInfo { Price = (int)price },
+                        new PackageInfo { Duration = (int)duration }
+                    }
+                };
+                context.Add(Package);
+                context.SaveChanges();
+
+            }
+
         }
 
         //ini function

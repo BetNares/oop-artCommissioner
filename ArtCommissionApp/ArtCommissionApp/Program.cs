@@ -18,7 +18,6 @@ namespace ArtCommissionApp
             {
                 showMenu = Consolefunctions.startMenu();
             }
-            
 
 
 
