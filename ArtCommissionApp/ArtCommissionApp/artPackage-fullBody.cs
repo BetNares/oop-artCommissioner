@@ -59,14 +59,6 @@ namespace ArtCommissionApp
                 var Package = new Package
                 {
                     Name = packageName,
-
-                    PackageInfo = new List<PackageInfo>
-                    {
-                        new PackageInfo { Name = packageName,
-                            Price = (int)price,
-                            Duration = (int)duration },
-
-                    }
                 };
                 context.Add(Package);
                 context.SaveChanges();

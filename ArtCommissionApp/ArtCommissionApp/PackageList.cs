@@ -10,16 +10,19 @@ namespace ArtCommissionApp
 {
     public class Package
     {
-        public int Id { get; set; }
+        public int PackId { get; set; }
         public string Name { get; set; }
-        public ICollection<PackageInfo> PackageInfo { get; set; } = new List<PackageInfo>();
+        public PackageInfo PackageInfo { get; set; }
+        
     }
 
     public class PackageInfo
     {
-        public int Id { get; set; }
+        public int InfoId { get; set; }
         public string Name { get; set; }
         public int Price { get; set; }
         public int Duration { get; set; }
+        public int PackId { get; set; }
+        public Package Package { get; set; }
     }
 }
